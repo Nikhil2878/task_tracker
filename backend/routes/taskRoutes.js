@@ -8,7 +8,7 @@ import {
 } from '../controllers/taskController.js';
 
 const router = express.Router();
-
+//Routes
 router.route('/').get(getTasks).post(createTask);
 router.route('/:id').get(getTask).put(updateTask).delete(deleteTask);
 

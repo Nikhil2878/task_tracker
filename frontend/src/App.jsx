@@ -40,7 +40,6 @@ function App() {
     <div className="app">
       <header className="app__header">
         <div className="app__brand">
-          <span className="app__logo-dot" />
           <div>
             <h1>Task Tracker</h1>
             <p>Stay on top of every task, one status at a time.</p>
